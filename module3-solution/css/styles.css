@@ -1,0 +1,75 @@
+/* BASIC:   STYLES */
+
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+h1, h3, .navbar-brand span {
+    font-weight: 900;
+}
+
+/* END:   BASIC STYLES */
+
+/* HEADER */
+
+#header-nav {
+    background-color: #999;
+    border-radius: 0;
+}
+
+.navbar {
+    margin: 0;
+    line-height: 48px;
+    height: 58px;
+    letter-spacing: 0.65px;
+    border: 2px solid black;
+}
+
+.navbar .container {
+    margin: 0;
+}
+
+/* END:   HEADER */
+
+
+/* HOME PAGE */
+
+#main-content.container {
+    width: auto;
+    margin: 0;
+    border: 2px solid black;
+}
+
+div.row {
+    background-color: #999;
+    margin: 0;
+}
+
+.container h3 {
+  margin-top: 4px;
+  margin-bottom: 5px;
+}
+
+.container .jumbotron {
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+
+.content {
+  padding: 0;
+}
+
+/* END:   HOME PAGE */
