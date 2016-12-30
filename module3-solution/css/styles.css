@@ -12,7 +12,9 @@ h1, h3, .navbar-brand span {
     font-weight: 900;
 }
 
+
 /* END:   BASIC STYLES */
+
 
 /* HEADER */
 
@@ -22,11 +24,11 @@ h1, h3, .navbar-brand span {
 }
 
 .navbar {
-    margin: 0;
-    line-height: 48px;
-    height: 58px;
+    line-height: 52px;
+    height: 62px;
     letter-spacing: 0.65px;
     border: 2px solid black;
+    margin-bottom: 0px;
 }
 
 .navbar .container {
@@ -34,26 +36,30 @@ h1, h3, .navbar-brand span {
 }
 
 #nav-list {
-  margin-top: 10px;
+    margin-top: 10px;
 }
+
 #nav-list a {
-  color: #951C49;
-  text-align: center;
+    color: #951C49;
+    text-align: center;
 }
+
 #nav-list a:hover {
-  background: #E7E7E7;
+    background: #E7E7E7;
 }
+
 #nav-list a span {
-  font-size: 1.8em;
+    font-size: 1.8em;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+    border: 2px solid black;
 }
+
 .navbar-header button.navbar-toggle {
-  clear: both;
-  margin-top: -30px;
+    margin-right: 22px;
 }
+
 /* END:   HEADER */
 
 
@@ -71,8 +77,8 @@ div.row {
 }
 
 .container h3 {
-  margin-top: 4px;
-  margin-bottom: 5px;
+    margin-top: 4px;
+    margin-bottom: 5px;
 }
 
 .container .jumbotron {
@@ -90,7 +96,8 @@ div.row {
 }
 
 .content {
-  padding: 0;
+    padding: 0;
 }
+
 
 /* END:   HOME PAGE */
