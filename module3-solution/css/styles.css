@@ -1,0 +1,277 @@
+/* BASIC:   STYLES */
+
+body {
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+h1, h3, .navbar-brand span {
+    font-weight: 900;
+}
+
+
+/* END:   BASIC STYLES */
+
+
+/* HEADER */
+
+#header-nav {
+    background-color: #999999;
+    border-radius: 0;
+}
+
+#header-nav .collapsable-nav {
+    background-color: white;
+}
+
+.container header {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    line-height: 52px;
+    letter-spacing: 0.65px;
+    border: 2px solid black;
+    margin-bottom: 0px;
+}
+
+.navbar .container {
+    margin: 0;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a:hover {
+    background: #999;
+}
+
+#nav-list a {
+    /*font-size: 1.8em;*/
+    text-align: center;
+    color: black;
+}
+
+#nav-list ul {
+    margin-top: 20px;
+    color: black;
+    border: 1px solid black;
+}
+
+#nav-list ul li {
+    margin: auto;
+    /*background-color: yellow;*/
+}
+
+#collapsable-nav ul {
+  margin-bottom: auto;
+}
+
+.navbar-header button[aria-expanded=false], .navbar-header button[aria-expanded=false] .icon-bar {
+    border: 2px solid black;
+}
+
+.navbar-header button[aria-expanded=true], .navbar-header button[aria-expanded=true] .icon-bar {
+    border: 2px solid #DCDCDC;
+}
+
+
+/**/
+
+.navbar-header button .navbar-toggle {
+    margin-right: 22px;
+}
+
+.navbar-header li {
+    background-color: white;
+}
+
+div#collapsable-nav {
+  margin: auto;
+  padding-bottom: 0px;
+}
+
+/* END:   HEADER */
+
+
+/** HEADER **/
+
+#header-nav {
+    /*background-color: #999;*/
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url('../images/restaurant-logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+.navbar-brand h1 {
+    /* Restaurant name */
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand p {
+    /*  cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p span {
+    /* Star-K */
+    vertical-align: middle;
+}
+
+#nav-list {
+    margin-top: 10px;
+    /*background-color: blue;*/
+    /*position: relative;*/
+    /*width: 800px;*/
+}
+
+#nav-list a {
+    /*background-color: yellow;*/
+    border: 1px solid black;
+    height: 25 px;
+    border-left: 0;
+    border-right: 0;
+}
+
+#nav-list a:hover {
+    background: white;
+    border: 2px solid black;
+}
+
+#nav-list a span {
+    /*font-size: 1.8em;*/
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a {
+    /* Phone number */
+    text-align: right;
+    padding-bottom: 0;
+}
+
+#phone div {
+    /* We Deliver */
+    color: #557c3e;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: left;
+    margin-top: -40px;
+    /*margin-bottom: 0;*/
+    /*padding: -1;*/
+}
+
+
+/* Customize the navbar links to be fill the entire space of the .navbar */
+
+
+/*.navbar .navbar-inner {
+    padding: 0;
+}
+
+.navbar .nav {
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+.navbar .nav li {
+    display: table-cell;
+    width: 1%;
+    float: none;
+}
+
+.navbar .nav li a {
+    font-weight: bold;
+    text-align: center;
+    border-left: 1px solid rgba(255, 255, 255, .75);
+    border-right: 1px solid rgba(0, 0, 0, .1);
+}
+
+.navbar .nav li:first-child a {
+    border-left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.navbar .nav li:last-child a {
+    border-right: 0;
+    border-radius: 0 3px 3px 0;
+}*/
+
+
+/* END HEADER */
+
+
+/* HOME PAGE */
+
+#main-content.container {
+    width: auto;
+    margin: 0;
+    border: 2px solid black;
+}
+
+#main-content div.row {
+    background-color: white;
+    margin: 0;
+}
+
+.container h3 {
+    margin-top: 4px;
+    margin-bottom: 5px;
+}
+
+.container .jumbotron {
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+}
+
+#menu-tile, #specials-tile, #map-tile {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+
+.content {
+    padding: 0;
+}
+
+
+/* END:   HOME PAGE */
