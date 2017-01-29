@@ -8,13 +8,16 @@ body {
     border: 2px solid black;
 }
 
-h1, h3, .navbar-brand span {
+h1, h3, .navbar-brand {
     font-weight: 900;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 
 /* END:   BASIC STYLES */
-
 
 /* HEADER */
 
@@ -25,6 +28,14 @@ h1, h3, .navbar-brand span {
 
 #header-nav .collapsable-nav {
     background-color: white;
+}
+
+#header-nav .container .navbar-brand {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+    height: 45px;
 }
 
 .container header {
@@ -69,7 +80,7 @@ h1, h3, .navbar-brand span {
 }
 
 #collapsable-nav ul {
-  margin-bottom: auto;
+    margin-bottom: auto;
 }
 
 .navbar-header button[aria-expanded=false], .navbar-header button[aria-expanded=false] .icon-bar {
@@ -79,7 +90,6 @@ h1, h3, .navbar-brand span {
 .navbar-header button[aria-expanded=true], .navbar-header button[aria-expanded=true] .icon-bar {
     border: 2px solid #DCDCDC;
 }
-
 
 /**/
 
@@ -92,12 +102,11 @@ h1, h3, .navbar-brand span {
 }
 
 div#collapsable-nav {
-  margin: auto;
-  padding-bottom: 0px;
+    margin: auto;
+    padding-bottom: 0px;
 }
 
 /* END:   HEADER */
-
 
 /** HEADER **/
 
@@ -143,7 +152,7 @@ div#collapsable-nav {
     margin-top: 15px;
 }
 
-.navbar-brand p span {
+.navbar-brand p {
     /* Star-K */
     vertical-align: middle;
 }
@@ -158,7 +167,7 @@ div#collapsable-nav {
 #nav-list a {
     /*background-color: yellow;*/
     border: 1px solid black;
-    height: 25 px;
+    height: 25px;
     border-left: 0;
     border-right: 0;
 }
@@ -196,9 +205,11 @@ div#collapsable-nav {
     /*padding: -1;*/
 }
 
+#collapsable-nav #nav-list li a {
+    padding: 0px 0 0 0;
+}
 
 /* Customize the navbar links to be fill the entire space of the .navbar */
-
 
 /*.navbar .navbar-inner {
     padding: 0;
@@ -233,9 +244,7 @@ div#collapsable-nav {
     border-radius: 0 3px 3px 0;
 }*/
 
-
 /* END HEADER */
-
 
 /* HOME PAGE */
 
@@ -246,7 +255,7 @@ div#collapsable-nav {
 }
 
 #main-content div.row {
-    background-color: white;
+    background-color: #999999;
     margin: 0;
 }
 
@@ -272,6 +281,5 @@ div#collapsable-nav {
 .content {
     padding: 0;
 }
-
 
 /* END:   HOME PAGE */
