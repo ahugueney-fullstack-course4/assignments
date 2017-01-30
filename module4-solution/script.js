@@ -50,8 +50,8 @@ for (var iName in names) {
     // string object's 'toLowerCase' method on the result so we can compare
     // to lower case character 'j' afterwards.
     // Look up these methods on Mozilla Developer Network web site if needed.
-    var name = names[iName].toLowerCase();
-    var firstLetter = name.charAt(0);
+    var name = names[iName];
+    var firstLetter = name.charAt(0).toLowerCase();
 
     // STEP 12:
     // Compare the 'firstLetter' retrieved in STEP 11 to lower case
